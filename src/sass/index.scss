@@ -1,2 +1,9 @@
-@import './common';
-@import './example';
+@import './utils/page';
+@import './utils/hidden';
+@import './utils/mixins';
+@import './utils/vars';
+@import './components/container';
+@import './components/link';
+@import './components/list';
+
+@import './sections/header';

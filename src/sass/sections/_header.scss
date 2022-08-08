@@ -1,0 +1,20 @@
+.header {
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+  }
+
+  &__nav {
+  }
+
+  &__nav-list {
+  }
+
+  &__nav-link {
+    font-size: 16px;
+    line-height: 1.31;
+  }
+}
