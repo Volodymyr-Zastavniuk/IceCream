@@ -1,26 +1,23 @@
 .button {
-  padding: 10px;
-  min-width: 200px;
+  padding: 0px;
+  min-width: 160px;
+  height: 44px;
   text-align: center;
-  color: var(--white-text-color);
-  background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  border-radius: 22px;
   border: none;
   cursor: pointer;
 
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
+  line-height: 1.32;
 
-  transition: color var(--transition-duration-function),
-    background-color var(--transition-duration-function);
-}
+  color: var(--accent-color);
+  background-color: var(--bg-primary-color);
+  transition: background-color var(--transition-duration-function);
 
-.button:hover,
-.button:focus {
-  color: var(--white-text-color);
-  background-color: var(--active-button-color);
+  &:hover,
+  &:focus {
+    background-color: var(--btn-hover-bg-color);
+  }
 }

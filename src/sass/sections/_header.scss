@@ -1,7 +1,13 @@
 .header {
+  padding-top: 37px;
+  background-color: var(--bg-third-color);
+
   &__inner {
     display: flex;
     align-items: center;
+    flex-basis: 100%;
+    gap: 20px;
+    justify-content: space-between;
   }
 
   &__logo {
@@ -11,6 +17,8 @@
   }
 
   &__nav-list {
+    display: flex;
+    gap: 35px;
   }
 
   &__nav-link {
